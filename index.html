@@ -12,7 +12,7 @@
 </head>
 
   <body>
-      <div id="particles-js">
+    <div id="particles-js">
   <div class="header">
       <span class="profile-img"><img src="assets/img/profile.png"></span>
       <h1>
@@ -27,19 +27,105 @@
         <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/ryoheikomy"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
         <a aria-label="My Qiita" target="_blank" href="https://qiita.com/ryokomy"><i class="icon fa fa-search" aria-hidden="true"></i></a>
       </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#posts" data-scroll>Works</a>
+      </div>
   </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
 
-      
-      <!--
-<footer class="footer">
+    <section id="about">
+  <h1> Profile </h1>
+  <div class="user-details">
+        <h3> Professional Experiences </h3>
+        Software Engineer / Researcher @ <a href="https://research.rhizomatiks.com/">Rhizomatiks Research</a> [Apr. 2017 - ] <br>
+        Research Assistant @ <a href="https://www.sonycsl.co.jp/">Sony Computer Science Laboratory</a> [Dec. 2016 - Mar. 2017] <br>
+        Research Internship @ <a href="http://www.nus.edu.sg/">National University of Singapore</a> [Sep. 2016 - Nov. 2016] <br>
+        Research Assistant @ <a href="https://www.sonycsl.co.jp/">Sony Computer Science Laboratory</a> [Aug. 2015 - Aug. 2016] <br>
+        
+        <h3> Education </h3>
+        <h4>M.A.S IN INTERDISCIPLINARY INFORMATION STUDIES (APPLIED COMPUTER SCIENCE)</h4>
+        <p>
+          Apr. 2015 - Mar. 2017 <br>
+          <a href="https://lab.rekimoto.org/">Human Augmentation Lab</a> <br>
+          <a href="http://www.u-tokyo.ac.jp/en/">The University of Tokyo</a> <br>
+          Researching Immersive Telepresence using Computer Vision, AR and VR with Prof. Jun Rekimoto. <br>
+          Used Tools: C/C++, OpenCV, PCL, OpenGL, GLSL, OpenNI2, Kinect v2, Motion capture, CAVE <br>
+        </p>
+        <h4>B.A. IN CONTROL AND SYSTEMS ENGINEERING</h4>
+        <p>
+          Apr. 2011 - Mar. 2015 <br>
+          <a href="http://www.ok.sc.e.titech.ac.jp/">Computer Vision and Image Processing Lab</a> <br>
+          <a href="https://www.titech.ac.jp/english/">Tokyo Institute of Technology</a> <br>
+          Researching RGB-D data acquisition by a single camera with a hybrid color filter array  with Associate Prof. Masayuki Tanaka and Prof. Masatoshi Okutomi. <br>
+          Used Tools: C/C++, Matlab, OpenCV, Kinect v1, Kinect SDK <br>
+        </p>
+
+        <h3> Interest </h3>
+        <p>
+          Human Augmentation, Computer Vision, Augmented Reality, Virtual Reality, Telepresence, Drone
+        </p>
+
+        <h3> Publications </h3>
+        <h4> Proceedings </h4>
+        <ul>
+            <li><a href="https://dl.acm.org/citation.cfm?id=3041183">AH '17 Proceedings of the 8th Augmented Human International Conference</a></li>
+            <li><a href="http://www.interaction-ipsj.org/proceedings/2016/data/pdf/16INT004.pdf">Information Processing Society of Japan, Interaction 2016</a></li>
+        </ul>
+
+        <h3>Achievements</h3>
+        <ul>
+          <li>Microsoft Imagine Cup Innovation Competition 2016, National Finalist in Japan</li>
+        </ul>
+
+
+    </div>
+  </div>
+</section>
+
+    <!-- from mr.brown -->
+    <section id="posts">
+    <h1> Works </h1>
+    <div id ="from-mr-brown">
+        <div class="page-wrap">
+            <main role="main">
+                <div class="flex-grid">
+                    
+                    <article class="main-articles">
+                        
+                        <a href="/research/2017/02/08/jackin-space.html"><img class="post-image" src=/assets/img/posts/jackinspace/jackinspace.jpg alt="JackIn Space"></a>
+                            
+                            <div class="post-content">
+                                <div class="wrap-content">
+                                    <header class="header-article">
+                                        <h2><a href="/research/2017/02/08/jackin-space.html">JackIn Space</a></h2>
+                                        <div class="byline"><span><i class="fa fa-calendar-o" aria-hidden="true"></i> 2017, Feb 08&nbsp;&nbsp;&nbsp;&nbsp;</span><span><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Ryo Komiyama</span></div>
+                                    </header>
+                                    <p>JackIn Space: Supporting the Seamless Transition Between First and Third Person View for Effective Telepresence Collaborations</p>
+                                </div>
+                            </div>
+                        </article>
+                    
+                </div>
+            </main>
+        </div>    
+    </div>
+</section>
+    
+    
+    <footer class="footer">
     <p>&copy; Ryo Komiyama</p>
-    <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
 </footer>
--->
+
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="/assets/js/sweet-scroll.min.js"></script>
 <script src="/assets/js/main.js"></script>
+
+<!-- from mr.brown -->
+<script src="/assets/js/jquery-3.1.1.min.js"></script>
+<script src="/assets/js/main.js"></script>
+
 <!-- Google Analytics -->
 
 <script>
@@ -54,3 +140,4 @@ ga('send', 'pageview');
 
 
   </body>
+</html>
